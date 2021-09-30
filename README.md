@@ -26,7 +26,23 @@ CSS 的全称是 Cascading Style Sheet（层叠样式表），它主要用来控
                                    注意：当引入的字体中含有空格时需要用""括起来，注释:<!-- 内容..........-->
                             
 2021/9/29 0:50 一天就学了这点，啊啊啊
+                                   2021/9/30 上午写的忘记保存了。都是很简单的内容，总结一下
+                                   ：调整图片大小：.属性名{
+                                                            width:(后面可用像素px也可用百分比%
                                    
+                                   边框颜色：.属性名{
+                                                        border-color:   ;(颜色
+                                                        border-style:solid;
+                                                         border-width:  ; (厚度
+                                                        border-radius:   ;(圆角边框50%时候是个园
+                                   
+                                   背景色：.{
+                                      
+                                                background-color:   ;
+                                   
+                                   同一个元素添加多个属性值<p class="background-color border-color">只需要中间空格
+  
+                                    设置元素ID：<h2 id="123">
 
    
 
