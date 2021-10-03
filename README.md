@@ -42,7 +42,7 @@ CSS 的全称是 Cascading Style Sheet（层叠样式表），它主要用来控
                                    
                                    同一个元素添加多个属性值<p class="background-color border-color">只需要中间空格
   
-                                    设置元素ID：<h2 id="123">
+                                    设置元素ID：<h2 id="123">声明时用#而非.
   
                                     id属性：不可重用，只能应用于一个元素，id优先级高于class，同时应用时会优先用id
   
@@ -89,13 +89,33 @@ CSS 的全称是 Cascading Style Sheet（层叠样式表），它主要用来控
 </div>(text-align:center;作用是中间对齐）
   
   使用属性选择器修改元素样式：[type='checkbox']{magrgin 10px 0px 15px 0px ;}
-
-
+  
+  
+  2020/10/3继续学习，带徒弟打了两天游戏（自己也懒）
+  
+ # 相对单位与绝对单位
+ # 各种优先级：
+  important>内联>id>class>继承
+ # 使用十六进制编码获取指定颜色
+  省略#   fff   0f0   ff0  f0f   00f   0ff    f00
+          白    绿    黄   粉    蓝    cyan    红
                                   
   
+  # 使用rgb值为元素上色
+  黑色的 RGB 值声明如下：
+
+  rgb(0, 0, 0)
+
+  白色的 RGB 值声明如下：
+
+  rgb(255, 255, 255)F替换255
+  Color	RGB
+Blue	rgb(0, 0, 255)
+Red	rgb(255, 0, 0)
+Orchid	rgb(218, 112, 214)
+Sienna	rgb(160, 82, 45)
   
-  
-  
+  #CSS 变量
     
   
   
